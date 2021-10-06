@@ -1,60 +1,78 @@
-a.{
-    margin: 7px;
-}
-
 .container{
-    background-color: white;
+    background-color: rgb(143, 0, 0);
 }
 
 h1 {
     text-align: center;
 }
-
-.hover, .rotate, .translateX, .ThreeD, .skew, .scale, .translateY{
+.hover{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: double rgb(0, 0, 0) 10px;
+}
+.rotate{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: double rgb(0, 0, 0) 10px;
+}
+.translateX{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: double rgb(0, 0, 0) 10px;
+}
+.ThreeD{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: double rgb(0, 0, 0) 10px;
+}
+.skew{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: double rgb(0, 0, 0) 10px;
+}
+.scale{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: double rgb(0, 0, 0) 10px;
+}
+.translateY{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: double rgb(0, 0, 0) 10px;
+}
+.nav-link, .hover, .rotate, .translateX, .ThreeD, .skew, .scale, .translateY{
     width: 400px;
-    
     padding: 50px 0;
-    
     cursor: pointer;
-    
     transition-property: color, background-color, transform;
     transition-duration: 1s;
     transition-delay: 1s;
-    transition-timing-function: ease-out;
+    transition-timing-function: ease-in-out;
 
 }
 
 .hover:hover{
     color: rgb(4, 38, 189);
-    background-color: rgb(160, 95, 95);
+    background-color: rgb(255, 0, 0);
 }
 .rotate:hover{
     transform: rotate(360deg);
 }
 .skew:hover{
-    color: darkgreen;
-    background-color: darkmagenta;
-    transform: skew(20deg);
+    color: greenyellow;
+    transform: skew(360deg);
 }
 .translateX:hover{
-    color: darkseagreen;
-    background-color: dodgerblue;
+    color: greenyellow;
     transform: translateX(30px);
 }
 .translateY:hover{
-    color: firebrick;
-    background-color: forestgreen;
-    transform: translateY(50px);
+    color: greenyellow;
+    transform: translateY(-30px) translateX(20px);
 }
 .scale:hover{
     color: greenyellow;
-    background-color: hotpink;
-    transform: scale(5);
+    transform: scale(2) ;
 }
 .ThreeD:hover{
-    color: red;
-    background-color: black;
+    color: greenyellow;
     transform: rotate3d(1, 1, 1, 360deg);
 }
-
+.nav-link:hover{
+    color: greenyellow;
+    transform: rotate3d(1, 1, 1, 360deg); 
+}
 
