@@ -1,0 +1,33 @@
+.sun{
+    border-radius: 50%;
+    width: 100px;
+    background-color: gold;
+    line-height: 0%;
+    padding: 50px 0;
+}
+.sky{
+    background-color: lightblue;
+    width: 100%;
+    height: 240px;
+}
+.grass{
+    background-color: green;
+    height: 200px;
+    width: 100%;
+}
+.road{
+    width: 100%;
+    height: 260px;
+    background-color: grey;
+}
+.lines{
+    border: 7px dashed yellow;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    bottom: 1%;
+}
+.img{
+    position: absolute;
+    
+}

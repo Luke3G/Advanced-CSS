@@ -1,0 +1,63 @@
+a.{
+    margin: 7px;
+}
+
+.container{
+    background-color: maroon;
+}
+
+h1 {
+    text-align: center;
+}
+
+.hover, .rotate, .translateX, .ThreeD, .skew, .scale, .translateY{
+    width: 100px;
+    line-height: 0px;
+    padding: 50px 0;
+    background-color: mediumblue;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    transition-property: color, background-color, transform;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease-out;
+
+}
+
+.hover:hover{
+    color: blanchedalmond;
+    background-color: cadetblue;
+}
+.rotate:hover{
+    color: chartreuse;
+    background-color: coral;
+    transform: rotate(360deg);
+}
+.skew:hover{
+    color: darkgreen;
+    background-color: darkmagenta;
+    transform: skew(20deg);
+}
+.translatex:hover{
+    color: darkseagreen;
+    background-color: dodgerblue;
+    transform: translateX(30px);
+}
+.translateY:hover{
+    color: firebrick;
+    background-color: forestgreen;
+    transform: translateY(50px);
+}
+.scale:hover{
+    color: greenyellow;
+    background-color: hotpink;
+    transform: scale(5);
+}
+.threeD:hover{
+    color: dodgerblue;
+    background-color: gold;
+    transform: rotate3d(1, 1, 1, 360deg);
+}
+
+
