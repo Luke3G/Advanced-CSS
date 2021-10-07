@@ -31,3 +31,26 @@
     position: absolute;
     
 }
+img{
+    position: absolute;
+    width: 74px;
+    bottom: 15px;
+    animation-name: myannie;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+}
+
+@keyframes myannie{
+    from{
+    left: 0px
+    }
+    to{
+     left: 1500px
+    }
+}
+
