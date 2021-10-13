@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Selectors</title>
+</head>
+
+<body>
+    <h3>
+        <h1 class="animate__animated animate__bounce">An animated element</h1>watch Me Change
+    </h3>
+    <!--try inline style-->
+    <header>
+        <ul>
+            <li><a href="Inderx.html">Main Menu</a></li>
+            <li><a href="circles.html">Circles</a></li>
+            <li><a href="animations.html">Animation</a>
+            <li><a href="tutorial.html">Tutorial</a></li>
+            <li><a href="selectors.html">Selectors</a></li>
+        </ul>
+    </header>
+    <style>
+        .section1 h1{
+            color: green;
+        }
+        h1{
+            color: orange;
+        }
+        p{
+            font-size: 25px;
+        }
+        .section2 h1{
+            color: blueviolet;
+        }
+        .section2 + p{
+            font-size: 20px;
+        }
+        .section2 ul li{
+            color: cadetblue;
+            font-size: 30px;
+            list-style: none;
+            transition-property: all;
+            transition: 4s;
+        }
+        .section2 ul li:hover{
+            color: black;
+            transform: translate(10px)
+        }
+        .section2 ul .Spanish:hover{
+            color: rgb(255, 0, 140);
+        }
+        .section3 h1{
+            color: cornflowerblue;
+        }
+        p::first-letter{
+            color: gold;
+            font-size: 50px;
+        }
+        p::selection{
+            color: red;
+            background-color: rebeccapurple;
+        }
+
+    </style>
+    <!--Start-->
+    <div class="section1">
+        <h1> Hello World!</h1>
+        <p>This is the English Language</p>
+    </div>
+    <h1>Hola Mundo!</h1>
+    <p>This is the Spanish Language.</p>
+    <!--make style changes 5 to this div's <p>
+            include a transform-->
+    <!--make style changes to the <li> in this div
+                make seperate style changes to the 
+            'spanish' class <li>-->
+    <div class="section2">
+        <h1>Bonjour le Monde!</h1>
+        <p>This is the French Language.</p>
+        <ul>
+            <li>4 Languages of the World</li>
+            <li>English</li>
+            <li class="Spanish">Spanish</li>
+            <li>French</li>
+            <li>Arabic</li>
+        </ul>
+    </div>
+    <!--make style changes to this div's <p> tag and
+        <ul> tag. Include an animation on the <li>-->
+    <div class="section3">
+        <h1>مرحبا بالعالم</h1>
+        <p>This is the Arabic Language. </p>
+        <ul>
+            <li>4 Languages of the World</li>
+            <li>English</li>
+            <li> Spanish</li>
+            <li>French</li>
+            <li>Arabic</li>
+        </ul>
+    </div>
+</body>
+
+</html>
